@@ -1,0 +1,14 @@
+<div>
+  {{#if titulo}}
+    <h1>{{titulo}}</h1>
+  {{else}}
+    <h1>Unknown TITLE</h1>
+  {{/if}}
+  <h3>Dolar: {{dolar}}</h3>
+  {{#each productos}}
+    <p>{{this.name}}</p>
+    <p>{{this.id}}</p>
+    <p>${{this.precio}}</p>
+    <hr />
+  {{/each}}
+</div>
