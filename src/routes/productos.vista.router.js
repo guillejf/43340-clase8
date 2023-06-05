@@ -1,5 +1,5 @@
-import express from "express";
-import { productos } from "../utils.js";
+/* import express from "express";
+import { productos } from "../utils/utils.js";
 
 export const routerVistaProductos = express.Router();
 routerVistaProductos.get("/", (req, res) => {
@@ -9,3 +9,4 @@ routerVistaProductos.get("/", (req, res) => {
     dolar: 500 + Math.floor(Math.random() * 100),
   });
 });
+ */

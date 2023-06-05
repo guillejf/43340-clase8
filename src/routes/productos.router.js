@@ -1,5 +1,5 @@
-import express from "express";
-import { productos } from "../utils.js";
+/* import express from "express";
+import { productos } from "../utils/utils.js";
 
 export const routerProductos = express.Router();
 routerProductos.get("/", (req, res) => {
@@ -83,3 +83,4 @@ routerProductos.post("/", (req, res) => {
     data: productoParaCrear,
   });
 });
+ */

@@ -1,6 +1,6 @@
-import express from "express";
-import { pets } from "../utils.js";
-import { uploader } from "../utils.js";
+/* import express from "express";
+import { pets } from "../";
+import { uploader } from "../utils/utils.js";
 export const routerPets = express.Router();
 
 routerPets.get("/", (req, res) => {
@@ -90,3 +90,4 @@ routerPets.post("/", uploader.single("file"), (req, res) => {
     data: petParaCrear,
   });
 });
+ */
